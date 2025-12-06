@@ -58,7 +58,7 @@ func openDB(dsn string) (*sql.DB, error) {
 	return db, nil
 }
 
-// next: 4.6 Executing SQL statements
+// next: 4.8 Multiple-record SQL queries
 
 // -- Create a new UTF-8 `snippetbox` database.
 // CREATE DATABASE snippetbox CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
